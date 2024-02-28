@@ -1,0 +1,28 @@
+package collection;
+
+import java.util.Collections;
+import java.util.LinkedList;
+
+public class Linked_List_Example {
+	
+	public static void main(String[] args) {
+		
+		LinkedList l1 = new LinkedList();
+		l1.add(21);
+		l1.add(17);
+		l1.add(74);
+
+		
+		System.out.println(l1.indexOf(17)); // Index is possible
+		Collections.sort(l1); // 
+		System.out.println(l1);// Sort is possible
+		
+		l1.add(42);
+		l1.add(58);
+		l1.add(30);
+//		l1.add("Jai");
+//		l1.add("Vasu");
+//		l1.add("Shiva");
+	}
+
+}

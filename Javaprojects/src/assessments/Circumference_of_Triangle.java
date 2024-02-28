@@ -1,0 +1,16 @@
+package assessments;
+
+public class Circumference_of_Triangle {
+	
+	public static void main(String[] args) {
+		
+		int a = 10;
+		int b = 20;
+		int c = 30;
+		
+		int circumferenceofTriangle  = a+b+c;
+		System.out.println("Circumference of Triangle : "
+		+circumferenceofTriangle);
+	}
+
+}

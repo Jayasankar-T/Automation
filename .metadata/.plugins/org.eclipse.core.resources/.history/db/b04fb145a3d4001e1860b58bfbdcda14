@@ -1,0 +1,20 @@
+package collection;
+
+import java.util.LinkedList;
+
+public class Linked_List_Example {
+	
+	public static void main(String[] args) {
+		
+		LinkedList l1 = new LinkedList();
+		l1.add(21);
+		l1.add(17);
+		l1.add(74);
+		l1.add("Jai");
+		l1.add("Vasu");
+		l1.add("Shiva");
+		
+		System.out.println(l1.indexOf(17));
+	}
+
+}

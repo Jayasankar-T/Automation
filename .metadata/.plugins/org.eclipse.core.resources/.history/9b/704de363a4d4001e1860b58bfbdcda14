@@ -1,0 +1,26 @@
+package collection;
+
+import java.util.Collections;
+import java.util.Vector;
+
+public class Vector_Example {
+
+	public static void main(String[] args) {
+		
+		Vector v1 = new Vector();
+		v1.add(46);
+		v1.add(107);
+		v1.add(17);
+		v1.add(74);
+		v1.add(17);
+		
+		
+		System.out.println(v1.indexOf(17)); // Index is possible
+		Collections.sort(v1); // 
+		System.out.println(v1);
+		
+//		System.out.println(v1);
+
+	}
+
+}

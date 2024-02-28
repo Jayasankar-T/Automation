@@ -1,0 +1,37 @@
+package upcasting;
+
+class Grand_Parent{
+	
+	void add() {
+			
+	}
+	
+}
+
+class Parent extends Grand_Parent{
+	
+	void substract() {
+		
+	}
+	
+}
+
+public class Casting extends Parent{
+	
+	void multiple() {
+		
+	}
+	public static void main(String[] args) {
+		
+		Parent p = new Casting();
+		p.add();
+		p.substract();
+		
+		Grand_Parent p1 = new Casting();
+		
+		Casting c = (Casting) p1;
+		c.multiple();
+		
+	}
+
+}
