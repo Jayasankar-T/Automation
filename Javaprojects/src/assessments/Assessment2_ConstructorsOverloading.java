@@ -1,4 +1,4 @@
-package assessments_task;
+package assessments;
 public class Assessment2_ConstructorsOverloading {
 	
 	Assessment2_ConstructorsOverloading(){

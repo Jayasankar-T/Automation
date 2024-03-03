@@ -1,30 +1,26 @@
-package assessments_task;
+package assessments;
 
 import java.util.Scanner;
 
 public class Palindrome {
 	
 	public static void main(String[] args) {
-		
+		System.out.println("Enter the Value : ");
 		Scanner s1 = new Scanner(System.in);
-		System.out.println("Enter a Word Here : ");
+		String input = s1.nextLine();
 		
-		String name = s1.nextLine();
+		String output = "";
 		
-		String palindrome = "";
-		
-		for(int i= name.length()-1;i>=0;i--) {
-			char ch = name.charAt(i);
-			palindrome = palindrome+ch;
+		for (int i=input.length()-1;i>=0;i--) {
+			char ch = input.charAt(i);
+			output = output+ch;
 		}
-		
-//		System.out.println(palindrome);
-		
-		if(name.equalsIgnoreCase(palindrome)) {
-			System.out.println("Given word is an Palindrome");
+		System.out.println(output);
+		if(input.equalsIgnoreCase(output)) {
+			System.out.println("Given Value is Palindrome");
 		}
 		else {
-			System.out.println("Given word is not a Palindrome");
+			System.out.println("Given value is not Palindrome");
 		}
 	}
 

@@ -1,4 +1,4 @@
-package assessments;
+package assessments_task;
 
 public class Assessment1 {
 	
