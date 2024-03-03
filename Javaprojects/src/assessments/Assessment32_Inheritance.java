@@ -1,0 +1,39 @@
+package assessments_task;
+
+interface First_Interface {
+	void first_interface_add();
+}
+
+interface Second_Interface {
+	void second_interface_add();
+}
+
+interface Third_Interface {
+	void third_interface_add();	
+}
+
+interface Four_Interface {
+	void four_interface_add();
+}
+
+interface Five_Interface {
+	void five_interface_add();	
+}
+public class Assessment32_Inheritance implements Four_Interface, Second_Interface {
+	
+	@Override
+	public void second_interface_add() {
+		System.out.println("Interface 2 add");		
+	}
+
+	@Override
+	public void four_interface_add() {
+		System.out.println("Interface 4 add");
+	}
+	
+	public static void main(String[] args) {
+		Assessment32_Inheritance a1 = new Assessment32_Inheritance();
+		a1.second_interface_add();
+		a1.four_interface_add();
+	}
+}

@@ -1,0 +1,15 @@
+package assessments_task;
+
+public class Assessment11_Area_of_Rectangle {
+	
+	public static void main(String[] args) {
+		
+		int l =30;
+		int b = 40;
+		
+		int areaofrectangle = l*b;
+		
+		System.out.println("Area of Rectangle : "+areaofrectangle);
+	}
+
+}

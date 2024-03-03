@@ -1,0 +1,23 @@
+package assessments_task;
+
+import java.util.Arrays;
+
+public class Assessment36_Check_both_Arrays_are_Same {
+	
+	public static void main(String[] args) {
+		
+		int a1 []= {12,27,34,47};
+		
+		int a2 []= {24,47,74,57};
+		
+		 boolean output = Arrays.equals(a1, a2);
+		 
+		 if (output == true) {
+			 System.out.println("Both Arrays are same");
+		 }
+		 else {
+			 System.out.println("Both Arrays are not same");
+		 }
+	}
+
+}

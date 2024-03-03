@@ -1,0 +1,13 @@
+package exception_handling;
+
+public class ThrowKeyWord {
+	
+	public static void main(String[] args) {
+		
+//		throw new NullPointerException();
+		
+		throw new NullPointerException("Hey your value is null");
+		
+	}
+
+}

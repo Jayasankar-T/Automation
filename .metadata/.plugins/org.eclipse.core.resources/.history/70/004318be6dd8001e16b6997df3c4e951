@@ -1,0 +1,18 @@
+package assessments_task;
+import java.util.Scanner;
+
+public class Assessment27_Perform_Opertaions_using_Scanner {
+	
+	
+	
+	public static void main(String[] args) {
+		Scanner s1 = new Scanner(System.in);
+		System.out.println("Enter First Value: ");
+		s1.nextInt();
+		Scanner s2 = new Scanner(System.in);
+		System.out.println("Enter Second Value: ");
+		s2.nextInt();
+		
+	}
+
+}

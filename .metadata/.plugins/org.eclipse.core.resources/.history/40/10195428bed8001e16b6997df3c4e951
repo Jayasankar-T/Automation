@@ -1,0 +1,19 @@
+package assessments_task;
+
+public class Assessment37_String_Contains_Digits {
+	
+	public static void main(String[] args) {
+		
+		int isdigit =0;
+		int isalpha = 0;
+		
+		String name = "JaiShankar2303";
+		
+		for(int i= name.length()-1;i>=0;i--) {
+			char ch = name.charAt(i);
+			System.out.println(ch);
+			
+		}
+	}
+
+}

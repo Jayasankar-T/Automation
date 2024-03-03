@@ -1,0 +1,11 @@
+package basicprograms;
+
+public class Math_Class {
+	
+	public static void main(String[] args) {
+		
+		double pii = Math.PI;
+		System.out.println(pii);
+	}
+
+}

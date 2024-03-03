@@ -1,0 +1,28 @@
+package assessments_task;
+
+public class Assessment4_Constructor_Method_Overloading {
+	
+	Assessment4_Constructor_Method_Overloading(){
+		System.out.println("Constructor 1");
+	}
+	Assessment4_Constructor_Method_Overloading(int a ){
+		System.out.println("Constructor 2");
+	}
+	
+	void method1() {
+		System.out.println("Method 1");
+	}
+	
+	void method1(int a) {
+		System.out.println("Method1 with Paremeters");
+	}
+	
+	
+	public static void main(String[] args) {
+		Assessment4_Constructor_Method_Overloading a2 = new Assessment4_Constructor_Method_Overloading();
+		new Assessment4_Constructor_Method_Overloading(20);
+		
+		a2.method1();
+		a2.method1(30);
+	}
+}

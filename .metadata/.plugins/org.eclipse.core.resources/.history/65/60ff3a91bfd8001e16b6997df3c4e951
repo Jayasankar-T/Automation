@@ -1,0 +1,17 @@
+package assessments_task;
+
+public class Assessment38_Factorial_Of_Numbers {
+	
+	public static void main(String[] args) {
+		
+		int number = 5;
+		
+		int factorial = 1 ;
+		
+		for(int i = 1;i<=number;i++) {
+			factorial= factorial*i;
+			System.out.println(i);
+		}
+	}
+
+}

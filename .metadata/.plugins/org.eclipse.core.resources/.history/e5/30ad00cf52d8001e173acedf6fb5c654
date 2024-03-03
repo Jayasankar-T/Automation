@@ -1,0 +1,15 @@
+package assessments_task;
+
+public class Assessment11_Area_of_Triangel {
+	
+	public static void main(String[] args) {
+		
+		int l = 10;
+		int b = 20;
+		
+		double areaoftriangle = 1/2*l*b;
+		
+		System.out.println("Area of Triangle : "+areaoftriangle);
+	}
+
+}

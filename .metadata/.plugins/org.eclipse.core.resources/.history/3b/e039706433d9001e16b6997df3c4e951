@@ -1,0 +1,35 @@
+package assessments_task;
+
+class Super_Most {
+	static void add() {
+		System.out.println("Supermost Add Method");
+	}
+	
+	static void sub() {
+		System.out.println("Supermost Substract Method");
+	}
+}
+
+class Super_Class extends Super_Most{
+	static void add() {
+		System.out.println("Super Class Add Method");
+	}
+	
+	static void sub() {
+		System.out.println("Super Class Substract Method");
+	}
+}
+
+class Sub_Class extends Super_Class{
+	static void add() {
+		System.out.println("Sub Class Add Method");
+	}
+	
+	static void sub() {
+		System.out.println("Sub Class Substract Method");
+	}
+}
+
+public class Assessment31_MultiLevel_Inheritance extends Sub_Class{
+
+}

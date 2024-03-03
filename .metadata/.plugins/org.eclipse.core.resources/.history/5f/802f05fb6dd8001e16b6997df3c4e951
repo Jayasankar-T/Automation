@@ -1,0 +1,42 @@
+package assessments_task;
+import java.util.Scanner;
+
+public class Assessment27_Perform_Opertaions_using_Scanner {
+	
+	void add(int a, int b) {
+		int add = a+b;
+		System.out.println("Additon of A and B : "+ add);
+	}
+	void substract(int a, int b) {
+		int add = a-b;
+		System.out.println("Additon of A and B : "+ add);
+	}
+	void multiply(int a, int b) {
+		int add = a*b;
+		System.out.println("Additon of A and B : "+ add);
+	}
+	void division(int a, int b) {
+		int add = a/b;
+		System.out.println("Additon of A and B : "+ add);
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		Scanner s1 = new Scanner(System.in);
+		System.out.println("Enter First Value: ");
+		s1.nextInt();
+		System.out.println("Enter Second Value: ");
+		Scanner s2 = new Scanner(System.in);
+		s2.nextInt();
+		
+		Assessment27_Perform_Opertaions_using_Scanner a1 = new Assessment27_Perform_Opertaions_using_Scanner();
+		
+		a1.add(20, 30);
+		a1.substract(300, 100);
+		a1.multiply(20, 30);
+		a1.division(100, 20);
+		
+	}
+
+}

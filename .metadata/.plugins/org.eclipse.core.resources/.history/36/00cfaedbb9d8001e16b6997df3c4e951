@@ -1,0 +1,15 @@
+package assessments_task;
+
+public class Assessment35_Reverse_String_using_SubString {
+	
+	public static void main(String[] args) {
+		
+		String name = "RamMohan";
+		
+		for(int i = name.length()-1;i>=0;i--) {
+			char ch = name.charAt(i);
+			System.out.println(ch);
+		}
+	}
+
+}

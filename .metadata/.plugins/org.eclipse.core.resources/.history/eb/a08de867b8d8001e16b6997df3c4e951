@@ -1,0 +1,19 @@
+package assessments_task;
+
+import java.util.Scanner;
+
+public class Assessment34_Print_Vertical_Fashion {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Enter the Value : ");
+		Scanner s1 = new Scanner(System.in);
+		String name  = s1.nextLine();
+		
+		for(int i = name.length()-1;i>=0;i--) {
+			char ch = name.charAt(i);
+			System.out.println(ch);
+		}
+	}
+
+}
